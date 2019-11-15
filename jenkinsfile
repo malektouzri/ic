@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/malektouzri/IntegrationContinue'
+                git 'https://github.com/malektouzri/ic'
             }
         }
         stage('Build') {
